@@ -58,23 +58,64 @@ header{
     font-family: 'Press Start 2P', cursive;
 }
 
-.nav-links{
-    width:100%;
-    font-size: 25px;
-    align-items:center;
-    display:flex;
-    justify-content:space-around;
+.nav-container{
+    margin: 0 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background-color: #a663cc;
 }
 .nav-links a{
     text-decoration: none;
+    margin: 0 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background-color: #6411ad;
+    font-size: 35px;
+    display:flex;
+    justify-content:space-evenly;
+    
+}
+
+.nav-links a:hover {
+    background-color: white;
+  color:#757bc8;
 }
 .p{
     font-family:'Bebas Neue', cursive;
 }
 
+.main-image-container{
+    align-items:center;
+    display:flex;
+    width:100%;
+    height:max-content;
+    justify-content:center;
+}
+.main-image-container img{
+    width:190%;
+    padding:0.5%;
+
+}
 .image-container{
     display:flex;
-    padding: 10%;
+    align-items:center;
+    width:10%;
+    padding: 0.5%;
+}
+.image-container img{
+    width:225%;
+    height: 650px;
+    display:flex;
+  justify-content:space-between;
 }
 
 .button-container{
@@ -88,3 +129,13 @@ header{
 .button-container a{
 text-decoration: none;
 }
+
+    margin: 0 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background-color: #F87B99;}
