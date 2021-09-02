@@ -58,6 +58,20 @@ header{
     font-family: 'Press Start 2P', cursive;
 }
 
+h1{
+    font-size:95px;
+    padding:1%;
+}
+
+h2{
+    font-size:35px;
+    margin-bottom: 20px;
+    background-color: #6411ad;
+}
+
+p{
+    font-size:20px;
+}
 .nav-container{
     margin: 0 10px;
     border: 1px solid lightgray;
@@ -79,8 +93,7 @@ header{
     text-decoration: none;
     margin-bottom: 20px;
     background-color: #6411ad;
-    font-size: 35px;
-    display:flex;
+    font-size: 20px;
     justify-content:space-evenly;
     
 }
@@ -109,12 +122,13 @@ header{
     display:flex;
     align-items:center;
     width:10%;
-    padding: 0.5%;
+    padding: 2rem 0%;
 }
 .image-container img{
     width:225%;
     height: 650px;
     display:flex;
+    padding: 2rem 0;
   justify-content:space-between;
 }
 
@@ -130,12 +144,16 @@ header{
 text-decoration: none;
 }
 
-    margin: 0 10px;
-    border: 1px solid lightgray;
-    padding: 20px;
-    display: inline-block;
-    border-radius: 20px;
-    color: white;
-    text-decoration: none;
-    margin-bottom: 20px;
-    background-color: #F87B99;}
+.all{
+    display:flex;
+    width:225%;
+    height: 650px;
+    display:flex;
+    padding: 2rem 0;
+  justify-content:space-between;
+}
+
+.p{
+    display:flex;
+    justify-content:flex-end;
+}
