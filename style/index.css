@@ -60,11 +60,31 @@ header{
 
 .nav-links{
     width:100%;
+    font-size: 25px;
+    align-items:center;
+    display:flex;
+    justify-content:space-around;
+}
+.nav-links a{
+    text-decoration: none;
+}
+.p{
+    font-family:'Bebas Neue', cursive;
+}
+
+.image-container{
+    display:flex;
+    padding: 10%;
+}
+
+.button-container{
+    width:100%;
+    font-size: 25px;
     align-items:center;
     display:flex;
     justify-content:space-around;
 }
 
-.p{
-    font-family:'Bebas Neue', cursive;
+.button-container a{
+text-decoration: none;
 }
