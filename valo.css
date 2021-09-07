@@ -180,3 +180,36 @@ footer{
 footer a:hover{
     background-color: white;
 color:#757bc8;}
+
+/* Responsive Design*/
+/* Tablet */
+@media(max-width:800px){
+    #about{
+        height:90vh;
+        background-position:right;
+    }
+#about div{
+    width:35%;
+    margin-right:5%;
+}
+.text div{
+    width:65%;
+}
+}
+
+/*Phone*/
+@media(max-width:500px){
+    nav{
+        flex-direction:column;
+    }
+#about{
+background-image:none;
+background-color:purple; 
+height:auto;
+justify-content:center;
+text-align:center;
+}
+#about div{
+    width:90%;
+    margin-right:0;
+}
